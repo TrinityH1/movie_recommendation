@@ -3,13 +3,13 @@ import pandas as pd
 import numpy as np
 import pickle
 def list_movie():
-      with open("D:/recommend_beta/list_movie2.plk","rb") as file:
+      with open("list_movie2.plk","rb") as file:
             li_op=pickle.load(file)
             li_op=pd.DataFrame(li_op)
       return li_op
       
 def data():
-      with open("D:/recommend_beta/recommend10.plk","rb") as file1:
+      with open("recommend10.plk","rb") as file1:
             ds=pickle.load(file1)
       return ds
             
