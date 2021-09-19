@@ -2,4 +2,4 @@ requests
 streamlit
 pandas 
 numpy
-pickle
+pickle-mixin
